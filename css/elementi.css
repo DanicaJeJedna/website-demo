@@ -1,0 +1,118 @@
+ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+
+form {
+    padding: 10px;
+    background-color: #f8f4e3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #d76d77;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #582534;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ffffff;
+    font-family: "Times New Roman", serif;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f1e3cb;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+.link-okvir {
+    background-color: #f1e3cb;
+    border: 2px solid #d76d77;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.link-okvir p {
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    color: #2e2e2e;
+}
+
+.link-okvir a {
+    text-decoration: none;
+    color: #582534;
+    font-weight: bold;
+}
+
+.link-okvir a:hover {
+    text-decoration: underline;
+    color: #d76d77;
+}
+.video-okvir,
+.mapa-okvir {
+    margin-top: 20px;
+    background-color: rgba(248, 244, 227, 0.8);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.video-okvir iframe,
+.mapa-okvir iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}

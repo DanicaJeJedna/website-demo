@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.okvir {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.zaglavlje,
+.navigacija,
+.glavno,
+.podnozje {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.navigacija {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navigacija ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navigacija li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigacija li a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+	text-transform: uppercase;
+}
+
+.lijevo,
+.sredina,
+.desno {
+    padding: 15px;
+    float: left;
+	margin:5px;
+}
+
+.glavno {
+    overflow: auto;
+}
+
+.lijevo {
+    width: 28%;
+    padding: 10px;
+}
+
+.sredina {
+    width: 38%;
+    padding: 10px;
+}
+
+.desno {
+    width: 28%;
+    padding: 10px;
+}
+.podnozje {
+    clear: both;
+}
+
+.dobrodosli-blok {
+    text-align: center;
+    background-color: #f1e3cb;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+.dobrodosli-blok .centar {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.kolona-kont {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.kolona-slika {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .lijevo, .sredina, .desno {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+    }
+    .okvir {
+        width: 100%;
+        padding: 10px;
+    }
+}

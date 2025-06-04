@@ -1,0 +1,42 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+	font-weight:italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+	text-indent: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+	text-align:justify;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.navigacija a {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.kolona {
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+}

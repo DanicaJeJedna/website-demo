@@ -1,0 +1,48 @@
+body {
+    background-color: #fdf6e3; 
+    color: #2e2e2e; 
+}
+
+.zaglavlje {
+    background-color: #f1e3cb;
+    color: #582534;
+}
+
+.navigacija {
+    background-color: #582534;
+}
+
+.navigacija a {
+    color: #fdf6e3;
+    text-decoration: none;
+}
+
+.navigacija a:hover,
+.navigacija a.aktivno {
+    background-color: #d76d77;
+    color: #fff;
+}
+
+.glavno  {
+	background-image: url("../slike/paper.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.lijevo,
+.sredina,
+.desno {
+    background-color: rgba(248, 244, 227, 0.8);
+    border-radius: 15px;
+
+}
+
+.podnozje {
+    background-color: #f1e3cb;
+    color: #2e2e2e;
+}
+.kolona {
+    background-color: rgba(248, 244, 227, 0.8);
+}
